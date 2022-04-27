@@ -17,6 +17,7 @@ class HomeViewCoordinator {
 
     func configureView() {
         // MARK: - Add/Remove/Update subviews here
+        view.backgroundColor = .white
     }
 
     func update(with users: String) {
