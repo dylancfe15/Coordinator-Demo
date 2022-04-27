@@ -9,21 +9,35 @@
 /* Begin PBXBuildFile section */
 		D5F0F26C2818E71500C30543 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F0F26B2818E71500C30543 /* AppDelegate.swift */; };
 		D5F0F26E2818E71500C30543 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F0F26D2818E71500C30543 /* SceneDelegate.swift */; };
-		D5F0F2702818E71500C30543 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F0F26F2818E71500C30543 /* ViewController.swift */; };
-		D5F0F2732818E71500C30543 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5F0F2712818E71500C30543 /* Main.storyboard */; };
+		D5F0F2702818E71500C30543 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F0F26F2818E71500C30543 /* HomeViewController.swift */; };
 		D5F0F2752818E71A00C30543 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5F0F2742818E71A00C30543 /* Assets.xcassets */; };
 		D5F0F2782818E71A00C30543 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5F0F2762818E71A00C30543 /* LaunchScreen.storyboard */; };
+		D5F0F2842818E7A500C30543 /* HomeCoodinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F0F2832818E7A500C30543 /* HomeCoodinator.swift */; };
+		D5F0F2862818E7BE00C30543 /* HomeViewCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F0F2852818E7BE00C30543 /* HomeViewCoordinator.swift */; };
+		D5F0F2882818E7D300C30543 /* HomeNetworkCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F0F2872818E7D300C30543 /* HomeNetworkCoordinator.swift */; };
+		D5F0F28A2818E84000C30543 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F0F2892818E84000C30543 /* MainCoordinator.swift */; };
+		D5F0F28D2818EEB500C30543 /* UserProfileViewContrller.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F0F28C2818EEB500C30543 /* UserProfileViewContrller.swift */; };
+		D5F0F2902818EEE100C30543 /* UserProfileCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F0F28F2818EEE100C30543 /* UserProfileCoordinator.swift */; };
+		D5F0F2922818EF6100C30543 /* UserProfileViewCoodinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F0F2912818EF6100C30543 /* UserProfileViewCoodinator.swift */; };
+		D5F0F2942818EFFF00C30543 /* UserProfileNetworkCoodinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F0F2932818EFFF00C30543 /* UserProfileNetworkCoodinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D5F0F2682818E71500C30543 /* Coordinator Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Coordinator Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5F0F26B2818E71500C30543 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D5F0F26D2818E71500C30543 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D5F0F26F2818E71500C30543 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D5F0F2722818E71500C30543 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D5F0F26F2818E71500C30543 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		D5F0F2742818E71A00C30543 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D5F0F2772818E71A00C30543 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D5F0F2792818E71A00C30543 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5F0F2832818E7A500C30543 /* HomeCoodinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoodinator.swift; sourceTree = "<group>"; };
+		D5F0F2852818E7BE00C30543 /* HomeViewCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewCoordinator.swift; sourceTree = "<group>"; };
+		D5F0F2872818E7D300C30543 /* HomeNetworkCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeNetworkCoordinator.swift; sourceTree = "<group>"; };
+		D5F0F2892818E84000C30543 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		D5F0F28C2818EEB500C30543 /* UserProfileViewContrller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileViewContrller.swift; sourceTree = "<group>"; };
+		D5F0F28F2818EEE100C30543 /* UserProfileCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileCoordinator.swift; sourceTree = "<group>"; };
+		D5F0F2912818EF6100C30543 /* UserProfileViewCoodinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileViewCoodinator.swift; sourceTree = "<group>"; };
+		D5F0F2932818EFFF00C30543 /* UserProfileNetworkCoodinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileNetworkCoodinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +72,68 @@
 			children = (
 				D5F0F26B2818E71500C30543 /* AppDelegate.swift */,
 				D5F0F26D2818E71500C30543 /* SceneDelegate.swift */,
-				D5F0F26F2818E71500C30543 /* ViewController.swift */,
-				D5F0F2712818E71500C30543 /* Main.storyboard */,
+				D5F0F2802818E75300C30543 /* Screens */,
+				D5F0F27F2818E74700C30543 /* Coordinators */,
 				D5F0F2742818E71A00C30543 /* Assets.xcassets */,
 				D5F0F2762818E71A00C30543 /* LaunchScreen.storyboard */,
 				D5F0F2792818E71A00C30543 /* Info.plist */,
 			);
 			path = "Coordinator Demo";
+			sourceTree = "<group>";
+		};
+		D5F0F27F2818E74700C30543 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				D5F0F2892818E84000C30543 /* MainCoordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		D5F0F2802818E75300C30543 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				D5F0F2812818E76E00C30543 /* Home */,
+				D5F0F28B2818EEA000C30543 /* UserProfile */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		D5F0F2812818E76E00C30543 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				D5F0F26F2818E71500C30543 /* HomeViewController.swift */,
+				D5F0F2822818E78F00C30543 /* Coodinators */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		D5F0F2822818E78F00C30543 /* Coodinators */ = {
+			isa = PBXGroup;
+			children = (
+				D5F0F2832818E7A500C30543 /* HomeCoodinator.swift */,
+				D5F0F2852818E7BE00C30543 /* HomeViewCoordinator.swift */,
+				D5F0F2872818E7D300C30543 /* HomeNetworkCoordinator.swift */,
+			);
+			path = Coodinators;
+			sourceTree = "<group>";
+		};
+		D5F0F28B2818EEA000C30543 /* UserProfile */ = {
+			isa = PBXGroup;
+			children = (
+				D5F0F28C2818EEB500C30543 /* UserProfileViewContrller.swift */,
+				D5F0F28E2818EECE00C30543 /* Coordinators */,
+			);
+			path = UserProfile;
+			sourceTree = "<group>";
+		};
+		D5F0F28E2818EECE00C30543 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				D5F0F28F2818EEE100C30543 /* UserProfileCoordinator.swift */,
+				D5F0F2912818EF6100C30543 /* UserProfileViewCoodinator.swift */,
+				D5F0F2932818EFFF00C30543 /* UserProfileNetworkCoodinator.swift */,
+			);
+			path = Coordinators;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +196,6 @@
 			files = (
 				D5F0F2782818E71A00C30543 /* LaunchScreen.storyboard in Resources */,
 				D5F0F2752818E71A00C30543 /* Assets.xcassets in Resources */,
-				D5F0F2732818E71500C30543 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +206,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5F0F2702818E71500C30543 /* ViewController.swift in Sources */,
+				D5F0F2902818EEE100C30543 /* UserProfileCoordinator.swift in Sources */,
+				D5F0F2862818E7BE00C30543 /* HomeViewCoordinator.swift in Sources */,
+				D5F0F28D2818EEB500C30543 /* UserProfileViewContrller.swift in Sources */,
+				D5F0F28A2818E84000C30543 /* MainCoordinator.swift in Sources */,
+				D5F0F2882818E7D300C30543 /* HomeNetworkCoordinator.swift in Sources */,
+				D5F0F2922818EF6100C30543 /* UserProfileViewCoodinator.swift in Sources */,
+				D5F0F2702818E71500C30543 /* HomeViewController.swift in Sources */,
+				D5F0F2942818EFFF00C30543 /* UserProfileNetworkCoodinator.swift in Sources */,
 				D5F0F26C2818E71500C30543 /* AppDelegate.swift in Sources */,
+				D5F0F2842818E7A500C30543 /* HomeCoodinator.swift in Sources */,
 				D5F0F26E2818E71500C30543 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,14 +223,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D5F0F2712818E71500C30543 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D5F0F2722818E71500C30543 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D5F0F2762818E71A00C30543 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
