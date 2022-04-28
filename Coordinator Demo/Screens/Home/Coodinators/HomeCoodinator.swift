@@ -30,8 +30,6 @@ class HomeCoordinator {
     }
 
     func navigationToUserProfile() {
-        if let user = user {
-            mainCoordinator?.pushUserProfileViewController(with: user)
-        }
+        mainCoordinator?.pushUserProfileViewController(with: user ?? "")
     }
 }

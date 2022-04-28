@@ -19,7 +19,7 @@ class MainCoordinator {
     func start() {
         let homeViewController = HomeViewController()
         homeViewController.coordinator.mainCoordinator = self
-        navigationController.pushViewController(homeViewController, animated: true)
+        navigationController.viewControllers = [homeViewController]
     }
 
     func pushUserProfileViewController(with user: String) {

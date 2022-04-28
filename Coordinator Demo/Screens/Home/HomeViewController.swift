@@ -15,9 +15,13 @@ class HomeViewController: UIViewController {
         super.viewDidLoad()
 
         coordinator.configure()
+
+        let tap = UITapGestureRecognizer(target: self, action: #selector(tap))
+
+        view.addGestureRecognizer(tap)
     }
 
-    @objc private func onTap() {
+    @objc func tap() {
         coordinator.navigationToUserProfile()
     }
 }

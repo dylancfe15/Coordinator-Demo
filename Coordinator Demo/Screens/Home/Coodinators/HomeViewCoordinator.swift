@@ -11,13 +11,26 @@ class HomeViewCoordinator {
 
     private let view: UIView
 
+    private lazy var label: UILabel = {
+        let label = UILabel()
+        label.translatesAutoresizingMaskIntoConstraints = false
+        label.text = "Home"
+        return label
+    }()
+
     init(view: UIView) {
         self.view = view
     }
 
     func configureView() {
-        // MARK: - Add/Remove/Update subviews here
         view.backgroundColor = .white
+
+        view.addSubview(label)
+
+        NSLayoutConstraint.activate([
+            label.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+            label.centerYAnchor.constraint(equalTo: view.centerYAnchor)
+        ])
     }
 
     func update(with users: String) {
