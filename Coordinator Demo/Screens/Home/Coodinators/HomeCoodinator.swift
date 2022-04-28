@@ -11,12 +11,12 @@ class HomeCoordinator {
 
     let viewCoordinator: HomeViewCoordinator
     private let networkCoordinator = HomeNetworkCoordinator()
-    var mainCoordinator: MainCoordinator?
 
     private var user: String?
 
     init(view: UIView) {
         viewCoordinator = HomeViewCoordinator(view: view)
+        viewCoordinator.coordinator = self
     }
 
     func configure() {
@@ -30,6 +30,6 @@ class HomeCoordinator {
     }
 
     func navigationToUserProfile() {
-        mainCoordinator?.pushUserProfileViewController(with: user ?? "")
+        AppContext.coordinator.pushUserProfileViewController(with: user ?? "")
     }
 }

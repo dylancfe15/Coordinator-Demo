@@ -17,6 +17,7 @@ class UserProfileCoodinator {
 
     init(view: UIView) {
         viewCoodinator = UserProfileViewCoodinator(view: view)
+        viewCoodinator.coordinator = self
     }
 
     func configure() {
@@ -33,6 +34,10 @@ class UserProfileCoodinator {
         networkCoordinator.updateUser(newUser: "New User") {
             // MARK: - Do something
         }
+    }
+
+    func popVieController() {
+        AppContext.coordinator.popVieController()
     }
 }
 

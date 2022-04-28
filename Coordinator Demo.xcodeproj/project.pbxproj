@@ -20,6 +20,7 @@
 		D5F0F2902818EEE100C30543 /* UserProfileCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F0F28F2818EEE100C30543 /* UserProfileCoordinator.swift */; };
 		D5F0F2922818EF6100C30543 /* UserProfileViewCoodinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F0F2912818EF6100C30543 /* UserProfileViewCoodinator.swift */; };
 		D5F0F2942818EFFF00C30543 /* UserProfileNetworkCoodinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F0F2932818EFFF00C30543 /* UserProfileNetworkCoodinator.swift */; };
+		D5F0F2A0281A1CE800C30543 /* AppContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F0F29F281A1CE800C30543 /* AppContext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		D5F0F28F2818EEE100C30543 /* UserProfileCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileCoordinator.swift; sourceTree = "<group>"; };
 		D5F0F2912818EF6100C30543 /* UserProfileViewCoodinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileViewCoodinator.swift; sourceTree = "<group>"; };
 		D5F0F2932818EFFF00C30543 /* UserProfileNetworkCoodinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileNetworkCoodinator.swift; sourceTree = "<group>"; };
+		D5F0F29F281A1CE800C30543 /* AppContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppContext.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 		D5F0F26A2818E71500C30543 /* Coordinator Demo */ = {
 			isa = PBXGroup;
 			children = (
+				D5F0F29E281A1CDA00C30543 /* Managers */,
 				D5F0F26B2818E71500C30543 /* AppDelegate.swift */,
 				D5F0F26D2818E71500C30543 /* SceneDelegate.swift */,
 				D5F0F2802818E75300C30543 /* Screens */,
@@ -134,6 +137,14 @@
 				D5F0F2932818EFFF00C30543 /* UserProfileNetworkCoodinator.swift */,
 			);
 			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		D5F0F29E281A1CDA00C30543 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				D5F0F29F281A1CE800C30543 /* AppContext.swift */,
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +218,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D5F0F2902818EEE100C30543 /* UserProfileCoordinator.swift in Sources */,
+				D5F0F2A0281A1CE800C30543 /* AppContext.swift in Sources */,
 				D5F0F2862818E7BE00C30543 /* HomeViewCoordinator.swift in Sources */,
 				D5F0F28D2818EEB500C30543 /* UserProfileViewContrller.swift in Sources */,
 				D5F0F28A2818E84000C30543 /* MainCoordinator.swift in Sources */,

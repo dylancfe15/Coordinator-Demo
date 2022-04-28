@@ -10,6 +10,7 @@ import UIKit
 class HomeViewCoordinator {
 
     private let view: UIView
+    var coordinator: HomeCoordinator?
 
     private lazy var label: UILabel = {
         let label = UILabel()
@@ -31,9 +32,17 @@ class HomeViewCoordinator {
             label.centerXAnchor.constraint(equalTo: view.centerXAnchor),
             label.centerYAnchor.constraint(equalTo: view.centerYAnchor)
         ])
+
+        let tap = UITapGestureRecognizer(target: self, action: #selector(tap))
+
+        view.addGestureRecognizer(tap)
     }
 
     func update(with users: String) {
         // MARK: - Update the UI with user
+    }
+
+    @objc private func tap() {
+        coordinator?.navigationToUserProfile()
     }
 }

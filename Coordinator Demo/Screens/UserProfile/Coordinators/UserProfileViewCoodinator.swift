@@ -10,6 +10,7 @@ import UIKit
 class UserProfileViewCoodinator {
 
     private let view: UIView
+    var coordinator: UserProfileCoodinator?
 
     private lazy var label: UILabel = {
         let label = UILabel()
@@ -31,9 +32,17 @@ class UserProfileViewCoodinator {
             label.centerXAnchor.constraint(equalTo: view.centerXAnchor),
             label.centerYAnchor.constraint(equalTo: view.centerYAnchor)
         ])
+
+        let tap = UITapGestureRecognizer(target: self, action: #selector(tap))
+
+        view.addGestureRecognizer(tap)
     }
 
     func configureView(with user: String) {
         // MARK: - Configure UI with given data
+    }
+
+    @objc private func tap() {
+        coordinator?.popVieController()
     }
 }

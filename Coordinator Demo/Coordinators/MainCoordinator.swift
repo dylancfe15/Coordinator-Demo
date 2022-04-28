@@ -8,25 +8,22 @@
 import UIKit
 
 class MainCoordinator {
-    // MARK: - Alternately we can make this a singleton
 
-    var navigationController: UINavigationController
-
-    init(navigationController: UINavigationController) {
-        self.navigationController = navigationController
-    }
+    var navigationController: UINavigationController?
 
     func start() {
         let homeViewController = HomeViewController()
-        homeViewController.coordinator.mainCoordinator = self
-        navigationController.viewControllers = [homeViewController]
+        navigationController?.viewControllers = [homeViewController]
     }
 
     func pushUserProfileViewController(with user: String) {
         let userProfileViewController = UserProfileViewController()
         userProfileViewController.coodinator.configure(user)
-        userProfileViewController.coodinator.mainCoordinator = self
 
-        navigationController.pushViewController(userProfileViewController, animated: true)
+        navigationController?.pushViewController(userProfileViewController, animated: true)
+    }
+
+    func popVieController() {
+        navigationController?.popViewController(animated: true)
     }
 }
