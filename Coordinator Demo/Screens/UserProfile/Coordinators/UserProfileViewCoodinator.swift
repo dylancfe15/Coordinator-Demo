@@ -43,6 +43,6 @@ class UserProfileViewCoodinator {
     }
 
     @objc private func tap() {
-        coordinator?.popVieController()
+        coordinator?.popViewController()
     }
 }

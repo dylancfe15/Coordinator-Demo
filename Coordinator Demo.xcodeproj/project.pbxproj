@@ -72,9 +72,9 @@
 		D5F0F26A2818E71500C30543 /* Coordinator Demo */ = {
 			isa = PBXGroup;
 			children = (
-				D5F0F29E281A1CDA00C30543 /* Managers */,
 				D5F0F26B2818E71500C30543 /* AppDelegate.swift */,
 				D5F0F26D2818E71500C30543 /* SceneDelegate.swift */,
+				D5F0F29E281A1CDA00C30543 /* Managers */,
 				D5F0F2802818E75300C30543 /* Screens */,
 				D5F0F27F2818E74700C30543 /* Coordinators */,
 				D5F0F2742818E71A00C30543 /* Assets.xcassets */,

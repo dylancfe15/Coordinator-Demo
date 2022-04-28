@@ -9,7 +9,6 @@ import UIKit
 
 class UserProfileCoodinator {
 
-    var mainCoordinator: MainCoordinator?
     private let viewCoodinator: UserProfileViewCoodinator
     private let networkCoordinator = UserProfileNetworkCoodinator()
 
@@ -36,8 +35,8 @@ class UserProfileCoodinator {
         }
     }
 
-    func popVieController() {
-        AppContext.coordinator.popVieController()
+    func popViewController() {
+        AppContext.coordinator.popViewController()
     }
 }
 

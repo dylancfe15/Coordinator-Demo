@@ -8,7 +8,6 @@
 import UIKit
 
 class MainCoordinator {
-
     var navigationController: UINavigationController?
 
     func start() {
@@ -23,7 +22,7 @@ class MainCoordinator {
         navigationController?.pushViewController(userProfileViewController, animated: true)
     }
 
-    func popVieController() {
+    func popViewController() {
         navigationController?.popViewController(animated: true)
     }
 }

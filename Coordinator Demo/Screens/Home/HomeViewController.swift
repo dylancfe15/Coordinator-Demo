@@ -15,7 +15,6 @@ class HomeViewController: UIViewController {
         super.viewDidLoad()
 
         coordinator.configure()
-
     }
 }
 
